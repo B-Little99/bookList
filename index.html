@@ -8,10 +8,35 @@
             <div id="headingWrapper">
                 <h2>Book List</h2>
             </div>
+            <form id = "form">
+                <label for="bookName"> Book Name
+                    <input type="text" name="Book Name" id="bookName">
+                </label>
+                <label for="bookAuthor"> Book Author
+                    <input type="text" name="Book Author" id="bookAuthor">
+                </label>
+                <label for="bookLink"> Book Link
+                    <input type="text" name="Book Link" id="bookLink">
+                </label>
+                <div id="buttonWrapper">
+                    <button id = "add">Add</button>
+                </div>
+            </form>
 
-
-
-
+            <div id="bookListing">
+            <table>
+                <tr id = "header">
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Author</td>
+                    <td>Link</td>
+                </tr>
+            </table>
+            </div>
         </div>
         <script src="scripts.js" ></script>
     </body>
