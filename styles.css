@@ -57,6 +57,7 @@ button {
     outline: none;
     margin: 30px 0 30px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 table {
@@ -69,4 +70,18 @@ th {
     text-align: left;
     padding-bottom: 15px;
     font-size: 20px;
+}
+
+.del{
+    text-align: center;
+    width: 50px;
+    background-color: rgb(206, 41, 41);
+    cursor: pointer;
+}
+
+.red {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(206, 41, 41);
+    border-radius: 4px;
 }
